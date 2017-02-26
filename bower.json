@@ -1,0 +1,23 @@
+{
+  "name": "mhi",
+  "homepage": "https://github.com/nppat/web_practice",
+  "authors": [
+    "Patrick Adamson <nppat@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-route": "^1.6.2",
+    "angular-messages": "^1.6.2",
+    "angular-cookies": "^1.6.2"
+  }
+}
