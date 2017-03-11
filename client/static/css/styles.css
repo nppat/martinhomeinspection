@@ -98,6 +98,12 @@ body {
     .navbar-header {
         min-width: 100%;
     }
+#pet {
+    margin-top: 25px;
+}
+#p_qual {
+    padding: 5% 5% 0 5%;
+}
 /* *************************** Footer *************************** */
 footer {
   padding-top: 1%;
