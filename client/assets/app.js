@@ -6,6 +6,18 @@ app.config(['$routeProvider', function($routeProvider) {
 		.when('/home', {
 			templateUrl: 'partials/main.html'
 		})
+		.when('/about', {
+			templateUrl: 'partials/about.html'
+		})
+		.when('/contact', {
+			templateUrl: 'partials/contact.html'
+		})
+		.when('/qualifications', {
+			templateUrl: 'partials/qualifications.html'
+		})
+		.when('/inspection', {
+			templateUrl: 'partials/inspection.html'
+		})
 		.otherwise({
             redirectTo: '/home'
          });
