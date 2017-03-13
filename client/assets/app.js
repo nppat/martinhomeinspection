@@ -4,8 +4,7 @@ var app = angular.module('app', ['ngRoute']);
 app.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 		.when('/home', {
-			templateUrl: 'partials/main.html',
-			controller: 'BackgroundController'
+			templateUrl: 'partials/main.html'
 		})
 		.when('/about', {
 			templateUrl: 'partials/about.html'
