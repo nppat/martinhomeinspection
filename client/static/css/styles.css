@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 50px; /* correct for fixed navbar padding issues */
     font-family: 'Lato', sans-serif;
 }
 
@@ -35,7 +35,9 @@ body {
 .h2_margin_bottom {
     margin-bottom: 4%;
 }
-
+#callNow {
+    color: red;
+}
 #row_1 {
     background-color: #fff;
 }
@@ -49,7 +51,19 @@ body {
     #row_1 a {
         font-size: 1.5rem; /* 24px / 16px = 1.5em */
     }
-
+    #row_1 ul.list-group {
+        /*margin-left: 5%;*/
+        width: 75%;
+        list-style: none;
+    }
+    #row_1 ul li {
+        padding: 2.5% 0 2.5% 5%;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    #row_1 strong {
+        font-size: 2rem;
+    }
 #row_2 {
     background-color: #c0cdda;
 }
@@ -59,6 +73,9 @@ body {
 #row_3 {
     background-color: #fff;
 }
+    #row_3 p {
+        margin-bottom: 6%;
+    }
 
 #row_4 {
     background-color: #777;
@@ -71,6 +88,9 @@ body {
     }
 .left h2, .right h2 {
     margin-bottom: 7.5%;
+}
+#address1 strong{
+    font-size: 1.5rem;
 }
 /* *************************** Nav Bar *************************** */
     .navbar .navbar-nav {

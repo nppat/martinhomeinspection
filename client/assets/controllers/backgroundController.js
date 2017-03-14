@@ -1,7 +1,11 @@
 app.controller('BackgroundController', function($scope) {
-  $scope.bodyStyle = {
+    $scope.mainBGImage = {
         'background': "url('/static/img/house.jpg') no-repeat center center",
         'background-size': 'cover',
-        'min-height': '100%'
+        'height': '700px'
     };
+    $scope.main = {
+        'padding-top': '0%',
+        'color' : 'white'
+    }
 });

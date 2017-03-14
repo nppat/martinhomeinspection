@@ -22,10 +22,10 @@
 	</div>
 </nav>
 <div class="container-fluid main">
-	<div class="row row_container" id="row_1">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-			<h1>Martin Home Inspection Services</h1>
-			<h3>Inspected once, Inspected right &reg;</h3>
+	<div class="row row_container" id="row_1" ng-controller='BackgroundController' ng-style='mainBGImage'>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" ng-style='main'>
+			<h1 ng-style='color'>Martin Home Inspection Services</h1>
+			<h3 ng-style='color'>Inspected once, Inspected right &reg;</h3>
 		</div>
 	</div>
 	<div class="row row_container" id="row_2">
@@ -64,10 +64,8 @@
 						<br>
 					<div class='center-block'>
 						<p>Kevin Martin, Certified Master Inspector<br/>
-							<span>
-								<p>Martin Home Inspection Services<br/>
-								<em>Anyone else is just looking around&reg;</em>
-							</span>
+							Martin Home Inspection Services<br/>
+						<em>Anyone else is just looking around&reg;</em>
 						</p>
 					</div>
 				</blockquote>
