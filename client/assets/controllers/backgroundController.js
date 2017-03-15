@@ -6,6 +6,7 @@ app.controller('BackgroundController', function($scope) {
     };
     $scope.main = {
         'padding-top': '0%',
-        'color' : 'white'
+        // 'color' : '#ff5d17' // orange
+        'color': '#fff'
     }
 });

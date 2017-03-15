@@ -64,6 +64,12 @@ body {
     #row_1 strong {
         font-size: 2rem;
     }
+    #row_1_strong {
+        margin-bottom: 2.5%;
+    }
+    #code_of_ethics {
+        margin-bottom: 5%;
+    }
 #row_2 {
     background-color: #c0cdda;
 }
