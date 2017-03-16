@@ -127,6 +127,11 @@ body {
 #p_qual {
     padding: 5% 5% 0 5%;
 }
+
+@media screen and (max-width: 767px) { /* resize <a> font size so screen is not scrolling horizontally on sm device */
+  #email  {
+    font-size: 1rem !important;
+  }
 /* *************************** Footer *************************** */
 footer {
   padding-top: 1%;
