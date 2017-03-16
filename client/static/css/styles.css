@@ -117,6 +117,9 @@ body {
         display: block;
         min-width: 100%;
     }
+    .mobile_brand  {
+        margin: 2.5% 0 0 5%;
+    }
     .navbar-header {
         min-width: 100%;
         color: #fff;
@@ -127,11 +130,6 @@ body {
 #p_qual {
     padding: 5% 5% 0 5%;
 }
-
-@media screen and (max-width: 767px) { /* resize <a> font size so screen is not scrolling horizontally on sm device */
-  #email  {
-    font-size: 1rem !important;
-  }
 /* *************************** Footer *************************** */
 footer {
   padding-top: 1%;
