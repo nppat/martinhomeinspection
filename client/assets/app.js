@@ -1,7 +1,7 @@
 var app = angular.module('app', ['ngRoute']);
 
 // Set up routes and controllers
-app.config(['$routeProvider', function($routeProvider) {
+app.config(['$routeProvider', '$locationProvider', function($routeProvider,  $locationProvider) {
 	$routeProvider
 		.when('/home', {
 			templateUrl: 'partials/main.html'
@@ -21,4 +21,6 @@ app.config(['$routeProvider', function($routeProvider) {
 		.otherwise({
             redirectTo: '/home'
          });
+
+		$locationProvider.hashPrefix('!');
 }]);
