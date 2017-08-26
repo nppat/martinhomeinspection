@@ -18,7 +18,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider,  $lo
 		.when('/inspection', {
 			templateUrl: 'partials/inspection.html'
 		})
-		.state('sitemap.xml', {
+		.when('sitemap.xml', {
 			url: '/sitemap.xml'
 		})
 		.otherwise({
