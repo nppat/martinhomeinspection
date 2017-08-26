@@ -18,8 +18,8 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider,  $lo
 		.when('/inspection', {
 			templateUrl: 'partials/inspection.html'
 		})
-		.when('/sitemap.xml', {
-			templateUrl: 'partials/sitemap.xml'
+		.state('sitemap.xml', {
+			url: '/sitemap.xml'
 		})
 		.otherwise({
             redirectTo: '/home'
